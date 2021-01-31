@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-djene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-djene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauces"/>
+        <rdfs:comment xml:lang="fr">Sauce Poisson</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-ginar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-ginar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauces"/>
+        <rdfs:comment xml:lang="fr">Sauce poulet</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-yapp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-yapp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauces"/>
+        <rdfs:comment xml:lang="fr">Sauce viande</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauces"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Accompagnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Accompagnement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Plat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Plat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Gnanka-tank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Gnanka-tank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Accompagnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Ingrédients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Ingrédients"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Pays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Pays"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Sénégal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Sénégal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Pays"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-djene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-djene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-djene"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouBoulette-djene"/>
+        <rdfs:comment xml:lang="fr">tchou poisson</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-ginar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-ginar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-ginar"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouCarry-ginar"/>
+        <rdfs:comment xml:lang="fr">Tchou poulet</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-yapp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-yapp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-yapp"/>
+        <rdfs:comment xml:lang="fr">Tchou viande</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouBoulette-djene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouBoulette-djene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-djene"/>
+        <rdfs:comment xml:lang="fr">Tchou boulette</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouBoulette-yapp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouBoulette-yapp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-yapp"/>
+        <rdfs:comment xml:lang="fr">Tchou boulette</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouCarry-ginar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouCarry-ginar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-ginar"/>
+        <rdfs:comment xml:lang="fr">Tchou carry poulet avec safran</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouCarry-yapp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouCarry-yapp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-yapp"/>
+        <rdfs:comment xml:lang="fr">Tchou carry viande avec safran</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-djene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-ginar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauce-yapp"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/Onto_Senagalais#Sauces"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Accompagnement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/aliment-africain#Plat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Ingrédients"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Pays"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#Tchou-yapp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouBoulette-yapp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/0/senegalise-plat#TchouCarry-yapp"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
