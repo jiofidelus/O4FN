@@ -1,0 +1,739 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Is_Acompagnement_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Is_Acompagnement_of">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasAcompagnement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Is_Ingredient_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Is_Ingredient_Of">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasAcompagnement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasAcompagnement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasIngredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Niankatang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Araw"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_sankal"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sauce"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasLocate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasLocate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasSauce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#hasSauce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Niankatang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sauce"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/projetOntoSen#Pays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/projetOntoSen#Pays"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Lakh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Lakh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Plat"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Thieb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Niankatang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Niankatang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Niaritchine"/>
+        <rdfs:comment xml:lang="wolof">Niankatang</rdfs:comment>
+        <rdfs:comment xml:lang="fr">riz créole</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Plat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Plat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/projetOntoSen#Pays"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Thieb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Thieb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Plat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Plat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Thieb"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Niaritchine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Plat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Araw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Araw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Lakh"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_sankal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_sankal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_sankal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Lakh"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Niaritchine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Niaritchine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-11#Thieb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Niaritchine"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Araw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Araw"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Arome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Arome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Bissap_Blanc"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="wolof">Beugueudj</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Sauce bissap (oseille), Gombo</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Bissap_Blanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Bissap_Blanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Courge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Courge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Blanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Blanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+        <rdfs:comment xml:lang="wolof">Diaga Bou wekh</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Sauce poulette blanc</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Rouge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Rouge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+        <rdfs:comment xml:lang="wolof">Diaga Bou Khonk</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Sauce boulette Rouge</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Rouge"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+        <rdfs:comment xml:lang="wolof">Diaga Bou Khonk</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Sauce Boulette Rouge</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj">
+        <rdfs:comment xml:lang="wolof">Guedj</rdfs:comment>
+        <rdfs:comment xml:lang="fr">poisson salé puis séché</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lait_Caillé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lait_Caillé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Neuteuri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Neuteuri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Araw"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_sankal"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Araw"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Arome"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Pain_de_singe"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sankal"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sucre"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Patte_d&apos;arachide"/>
+        <rdfs:comment xml:lang="fr">Bouille de Mil et Sauce Arachide</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Lakh Neuteuri</rdfs:comment>
+        <rdfs:comment xml:lang="en">Millet porridge and peanut sauce</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Sow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Sow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_Araw"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lakh_sankal"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Araw"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Arome"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Lait_Caillé"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sankal"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sucre"/>
+        <rdfs:comment xml:lang="fr">Bouille de Mil au lait caïllé</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Lakh Sow</rdfs:comment>
+        <rdfs:comment xml:lang="en">Millet porridge with curdled milk</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Magnoc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Magnoc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Mil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Mil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Nététou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Nététou">
+        <rdfs:comment xml:lang="wolof">Nététou</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Oignon_Vert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Oignon_Vert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Pain_de_singe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Pain_de_singe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Petit_Mollusque_séché -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Petit_Mollusque_séché"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson_Fumé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson_Fumé">
+        <rdfs:comment xml:lang="wolof">Kong Fumé</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Poisson Fumé</rdfs:comment>
+        <rdfs:comment xml:lang="en">smoked fish</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poudre_de_Gombo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poudre_de_Gombo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Riz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Riz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sankal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sankal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+        <rdfs:comment xml:lang="fr">Brisures de Mil</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Sankal</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Acompagnement"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Nététou"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="fr">Sauce Nététou</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Soul</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soupe_Kandia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soupe_Kandia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sauce"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Oignon_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Petit_Mollusque_séché"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson_Fumé"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poudre_de_Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tiir"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="fr">Ragout aux Gombos er à l&apos;huie de Palme accompagné de Riz créole</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Soupe Kandia</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sucre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sucre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Thiou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Thiou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sauce"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Magnoc"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Nététou"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Petit_Mollusque_séché"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson_Fumé"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tiir"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomates_frais"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Yette"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="fr">Ragout de viande ou de poisson  et de légumes accompagnés de riz blanc</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Thiou</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBouD_Diaga_Rouge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBouD_Diaga_Rouge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Rouge"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soul"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Bissap_Blanc"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Courge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Magnoc"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Riz"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomate_Pot"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Yette"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#huile"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="fr">Riz au poisson Rouge avec sauce Diaga</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">ThiéBou Diaga Bou Khonk</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBouDjeune_Blanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBouDjeune_Blanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soul"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Bissap_Blanc"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Magnoc"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Oignon_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Riz"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomates_frais"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Yette"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#huile"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="fr">Riz au poisson blanc</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">ThiéBou Djeune Bou Wékh</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBouDjeune_Rouge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBouDjeune_Rouge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soul"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Oignon_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Riz"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomate_Pot"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#huile"/>
+        <rdfs:comment xml:lang="en">Red rice and fish</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Riz au poisson Rouge</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">thiéBou Djeune Bou Khonk</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBou_Djaga_Blanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#ThiéBou_Djaga_Blanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Benetchine"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Beugueudj"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Diaga_Blanc"/>
+        <hasAcompagnement rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Soul"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Aubergine_Amer"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Carotte"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Choux"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Courge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Eau"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Gombo"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Guedj"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Rouge"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Piment_Vert"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Poisson"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Riz"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Sel"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomates_frais"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Yette"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#huile"/>
+        <hasIngredient rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon"/>
+        <rdfs:comment xml:lang="fr">Riz au poisson avec sauce boulette</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">ThiéBou Diaga Blanc</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tiir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tiir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+        <rdfs:comment xml:lang="fr">Huile de palme</rdfs:comment>
+        <rdfs:comment xml:lang="wolof">Tiir</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomate_Pot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomate_Pot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomates_frais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Tomates_frais">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Yette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Yette"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#huile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#huile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#oignon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Patte_d&apos;arachide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Patte_d&apos;arachide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/penda/ontologies/2021/1/untitled-ontology-15#Ingrédients"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
